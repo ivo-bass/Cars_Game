@@ -103,8 +103,8 @@ while run:
 		if event.type == speed_up:
 			fps += 1
 			mcqueen.score_ += 1
-			start_range -= 10
-			stop_range -= 20
+			start_range -= 15
+			stop_range -= 30
 
 		if event.type == run_new_car:
 			cars.append(Car(120, 220, car_speed))

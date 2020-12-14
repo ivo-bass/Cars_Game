@@ -6,7 +6,7 @@ class McQueen(object):
 	img = pygame.image.load('images/mcqueen2.png')
 	img_left = pygame.image.load('images/mcqueen_left.png')
 	img_right = pygame.image.load('images/mcqueen_right.png')
-	energy_ = 10000
+	energy_ = 1000
 	score_ = 0
 
 	def __init__(self):
