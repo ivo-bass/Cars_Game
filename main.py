@@ -9,7 +9,7 @@ pygame.init()
 run = False
 run = welcome(run)
 
-pygame.mixer.music.load("sounds/song.mp3")
+pygame.mixer.music.load("sounds/song.ogg")
 pygame.mixer.music.play(-1)
 engine_sound = pygame.mixer.Sound('sounds/02-engine_short-consolidated.wav')
 engine_sound.play(-1)

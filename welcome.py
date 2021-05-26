@@ -10,7 +10,7 @@ def welcome(run):
         win.blit(quit_msg, (350, 15))
         pygame.display.update()
 
-    pygame.mixer.music.load("sounds/Blind.mp3")
+    pygame.mixer.music.load("sounds/Blind.ogg")
     pygame.mixer.music.play(-1)
     horn = pygame.mixer.Sound('sounds/03-horns-consolidated.wav')
     start_font = pygame.font.SysFont('comicsans', size=80, bold=False, italic=True)
